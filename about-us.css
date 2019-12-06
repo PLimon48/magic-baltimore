@@ -1,0 +1,26 @@
+.bkgd {
+  background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-2.jpg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+}
+
+.navbar {
+  font-family: monospace;
+  font-size: 140%;
+}
+
+.logo {
+  transition: .3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.2) rotate(5deg) translateX(10px);
+}
+
+.space-bw {
+  display: flex;
+  justify-content: center;
+}

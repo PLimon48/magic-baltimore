@@ -1,0 +1,68 @@
+.bkgd {
+  background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-2.jpg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+}
+
+.card {
+  font-size: 110%;
+  background: radial-gradient(#4d4d4d, #1a1a1a);
+  border-radius: 20px;
+  border-color: #000000;
+  border-style: double;
+  border-width: thick;
+  font-family: monospace;
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+.card-header {
+  font-family: sans-serif;
+}
+
+.navbar {
+  font-family: monospace;
+  font-size: 140%;
+}
+
+.logo {
+  transition: .3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.2) rotate(2deg) translateX(10px);
+}
+
+.round {
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.submit {
+  border-radius: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.space-bw {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pics {
+  transition: .3s ease;
+}
+
+.pics:hover {
+  transform: scale(1.1) rotate(5deg) translateX(10px);
+}
+
+.pics:click {
+  
+}
